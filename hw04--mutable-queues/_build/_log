@@ -1,0 +1,48 @@
+### Starting build.
+# Target: queueTest.ml.depends, tags: { debug, extension:ml, file:queueTest.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules queueTest.ml > queueTest.ml.depends # cached
+# Target: assert.mli.depends, tags: { debug, extension:mli, file:assert.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules assert.mli > assert.mli.depends # cached
+# Target: assert.cmi, tags: { byte, compile, debug, extension:mli, file:assert.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o assert.cmi assert.mli # cached
+# Target: linkedQueue.mli.depends, tags: { debug, extension:mli, file:linkedQueue.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules linkedQueue.mli > linkedQueue.mli.depends # cached
+# Target: queueInterface.mli.depends, tags: { debug, extension:mli, file:queueInterface.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules queueInterface.mli > queueInterface.mli.depends # cached
+# Target: queueInterface.cmi, tags: { byte, compile, debug, extension:mli, file:queueInterface.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o queueInterface.cmi queueInterface.mli # cached
+# Target: linkedQueue.cmi, tags: { byte, compile, debug, extension:mli, file:linkedQueue.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o linkedQueue.cmi linkedQueue.mli # cached
+# Target: simpleQueue.mli.depends, tags: { debug, extension:mli, file:simpleQueue.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules simpleQueue.mli > simpleQueue.mli.depends # cached
+# Target: simpleQueue.cmi, tags: { byte, compile, debug, extension:mli, file:simpleQueue.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o simpleQueue.cmi simpleQueue.mli # cached
+# Target: queueTest.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:queueTest.cmo, file:queueTest.ml, implem, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o queueTest.cmo queueTest.ml # cached
+# Target: assert.ml.depends, tags: { debug, extension:ml, file:assert.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules assert.ml > assert.ml.depends # cached
+# Target: assert.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:assert.cmo, file:assert.ml, implem, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o assert.cmo assert.ml # cached
+# Target: linkedQueue.ml.depends, tags: { debug, extension:ml, file:linkedQueue.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules linkedQueue.ml > linkedQueue.ml.depends
+# Target: imp.mli.depends, tags: { debug, extension:mli, file:imp.mli, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules imp.mli > imp.mli.depends # cached
+# Target: imp.cmi, tags: { byte, compile, debug, extension:mli, file:imp.mli, interf, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o imp.cmi imp.mli # cached
+# Target: queueInterface.ml.depends, tags: { debug, extension:ml, file:queueInterface.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules queueInterface.ml > queueInterface.ml.depends # cached
+# Target: queueInterface.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:queueInterface.cmo, file:queueInterface.ml, implem, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o queueInterface.cmo queueInterface.ml # cached
+# Target: simpleQueue.ml.depends, tags: { debug, extension:ml, file:simpleQueue.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules simpleQueue.ml > simpleQueue.ml.depends # cached
+# Target: simpleQueue.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:simpleQueue.cmo, file:simpleQueue.ml, implem, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o simpleQueue.cmo simpleQueue.ml # cached
+# Target: linkedQueue.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:linkedQueue.cmo, file:linkedQueue.ml, implem, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o linkedQueue.cmo linkedQueue.ml
+# Target: imp.ml.depends, tags: { debug, extension:ml, file:imp.ml, ocaml, ocamldep, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamldep.opt -modules imp.ml > imp.ml.depends # cached
+# Target: imp.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:imp.cmo, file:imp.ml, implem, ocaml, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt -c -g -o imp.cmo imp.ml # cached
+# Target: queueTest.byte, tags: { byte, debug, dont_link_with, extension:byte, file:queueTest.byte, link, ocaml, program, quiet, traverse }
+/home/codio/.opam/4.12.0/bin/ocamlc.opt unix.cma str.cma -g assert.cmo imp.cmo queueInterface.cmo linkedQueue.cmo simpleQueue.cmo queueTest.cmo -o queueTest.byte
+# Compilation successful.
